@@ -1,0 +1,34 @@
+{
+  "name": "alumno-juego-de-lingo",
+  "plural": "AlumnosJuegoDeLingo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Contestado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "puntuacion": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId"
+    },
+    "juegoDeLingo": { 
+      "type": "belongsTo", 
+      "model": "juegoDeLingo", 
+      "foreignKey": "juegoDeLingoId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

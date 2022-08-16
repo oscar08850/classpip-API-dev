@@ -1,6 +1,6 @@
 {
-  "name": "JuegoDeCuestionarioSatisfaccion",
-  "plural": "juegosDeCuestionarioSatisfaccion",
+  "name": "juegoDeLingo",
+  "plural": "JuegosDeLingo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,8 +11,9 @@
       "type": "string",
       "required": true
     },
-    "Presentacion": {
-      "type": "string"
+    "palabraSecreta": {
+      "type": "string",
+      "required": true
     },
     "JuegoActivo": {
       "type": "boolean",
@@ -21,6 +22,11 @@
     "JuegoTerminado": {
       "type": "boolean",
       "required": true
+    },
+    "numeroIntentos": {
+      "type": "number",
+      "required": true,
+      "default": 5
     }
   },
   "validations": [],
@@ -28,8 +34,8 @@
     "alumnos": {
       "type": "hasMany",
       "model": "Alumno",
-      "foreignKey": "juegoDeCuestionarioSatisfaccionId",
-      "through": "AlumnoJuegoDeCuestionarioSatisfaccion"
+      "foreignKey": "juegoDeLingoId",
+      "through": "AlumnoJuegoDeLingo"
     }
   },
   "acls": [],

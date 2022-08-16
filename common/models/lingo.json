@@ -1,32 +1,32 @@
 {
-  "name": "Rubrica",
-  "plural": "rubricas",
+  "name": "lingo",
+  "plural": "Lingo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "Titulo": {
       "type": "string",
       "required": true
     },
+    "Terminado": {
+      "type": "boolean",
+      "default": false
+    },
     "Descripcion": {
       "type": "string"
-    },
-    "Criterios": {
-      "type": [
-        "object"
-      ]
-    },
-    "Publica": {
-      "type": "boolean",
-      "required": false,
-      "default": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "juegoDeLingo": {
+      "type": "hasMany",
+      "model": "juegoDeLingo",
+      "foreignKey": "juegoDeLingoId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -75,7 +75,7 @@
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
     "RespuestaEquipoJuegoDeCuestionario": 53,
-    "Evento": 756,
+    "Evento": 758,
     "RecursosCuento": 5,
     "JuegoDeCuento": 9,
     "RecursoJuegoDeCuento": 9,
@@ -92,8 +92,8 @@
     "AlumnoJuegoDeVotacionAOpciones": 49,
     "Familia": 62,
     "Carta": 257,
-    "JuegoDeMemorama": 10,
-    "AlumnoJuegoDeMemorama": 71
+    "JuegoDeMemorama": 12,
+    "AlumnoJuegoDeMemorama": 84
   },
   "models": {
     "Profesor": {
@@ -1385,7 +1385,9 @@
       "752": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-03T17:16:09.258Z\",\"ProfesorID\":14,\"JuegoID\":6,\"NombreJuego\":\"Bajo el mar\",\"TipoJuego\":\"Juego De Memorama\",\"id\":752}",
       "753": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-04T12:40:25.165Z\",\"ProfesorID\":14,\"JuegoID\":7,\"NombreJuego\":\"Escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":753}",
       "754": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-05T09:38:13.267Z\",\"ProfesorID\":14,\"JuegoID\":8,\"NombreJuego\":\"Escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":754}",
-      "755": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-05T09:39:57.027Z\",\"ProfesorID\":14,\"JuegoID\":9,\"NombreJuego\":\"escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":755}"
+      "755": "{\"TipoEvento\":1,\"FechayHora\":\"2022-03-05T09:39:57.027Z\",\"ProfesorID\":14,\"JuegoID\":9,\"NombreJuego\":\"escritores\",\"TipoJuego\":\"Juego De Memorama\",\"id\":755}",
+      "756": "{\"TipoEvento\":1,\"FechayHora\":\"2022-08-02T20:25:13.477Z\",\"ProfesorID\":14,\"JuegoID\":10,\"NombreJuego\":\"lolo\",\"TipoJuego\":\"Juego De Memorama\",\"id\":756}",
+      "757": "{\"TipoEvento\":1,\"FechayHora\":\"2022-08-04T16:21:52.808Z\",\"ProfesorID\":14,\"JuegoID\":11,\"NombreJuego\":\"NombreJuego\",\"TipoJuego\":\"Juego De Memorama\",\"id\":757}"
     },
     "RecursosCuento": {
       "3": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":3}",
@@ -1586,7 +1588,24 @@
       "255": "{\"Nombre\":\"imagen8\",\"imagenDelante\":\"bajo_el_mar_8.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":255,\"relacion\":248}",
       "256": "{\"Nombre\":\"imagen9\",\"imagenDelante\":\"bajo_el_mar_9.png\",\"imagenDetras\":\"bajo_el_mar_dorso.png\",\"familiaId\":61,\"id\":256,\"relacion\":248}"
     },
-    "JuegoDeMemorama": {},
-    "AlumnoJuegoDeMemorama": {}
+    "JuegoDeMemorama": {
+      "10": "{\"NombreJuego\":\"lolo\",\"Tipo\":\"Juego De Memorama\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":79,\"familiaId\":61,\"idcartas\":[249,248,250,251,254,254,254,254],\"puntuacionCorrecta\":\"4\",\"puntuacionIncorrecta\":\"4\",\"dificultad\":\"facil\",\"tiempoduracion\":\"4\",\"id\":10}",
+      "11": "{\"NombreJuego\":\"NombreJuego\",\"Tipo\":\"Juego De Memorama\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":77,\"familiaId\":61,\"idcartas\":[248,249,253,254],\"puntuacionCorrecta\":\"100\",\"puntuacionIncorrecta\":\"200\",\"dificultad\":\"facil\",\"tiempoduracion\":\"300\",\"id\":11}"
+    },
+    "AlumnoJuegoDeMemorama": {
+      "71": "{\"alumnoId\":136,\"juegoDeMemoramaId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":71}",
+      "72": "{\"alumnoId\":135,\"juegoDeMemoramaId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":72}",
+      "73": "{\"alumnoId\":137,\"juegoDeMemoramaId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":73}",
+      "74": "{\"alumnoId\":139,\"juegoDeMemoramaId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":74}",
+      "75": "{\"alumnoId\":138,\"juegoDeMemoramaId\":10,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":75}",
+      "76": "{\"alumnoId\":136,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":76}",
+      "77": "{\"alumnoId\":135,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":77}",
+      "78": "{\"alumnoId\":137,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":78}",
+      "79": "{\"alumnoId\":138,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":79}",
+      "80": "{\"alumnoId\":139,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":80}",
+      "81": "{\"alumnoId\":140,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":81}",
+      "82": "{\"alumnoId\":141,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":82}",
+      "83": "{\"alumnoId\":142,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":83}"
+    }
   }
 }
