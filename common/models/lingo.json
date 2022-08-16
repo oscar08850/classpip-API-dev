@@ -1,6 +1,6 @@
 {
-  "name": "lingo",
-  "plural": "Lingo",
+  "name": "Lingo",
+  "plural": "Lingos",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
