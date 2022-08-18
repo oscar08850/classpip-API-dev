@@ -30,7 +30,7 @@
     },
     "grupoId": {
       "type": "number",
-      "required": true
+      "required": true   
     },
     "familiaId": {
       "type": "number",

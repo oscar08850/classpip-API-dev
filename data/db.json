@@ -93,7 +93,8 @@
     "Familia": 62,
     "Carta": 257,
     "JuegoDeMemorama": 12,
-    "AlumnoJuegoDeMemorama": 84
+    "AlumnoJuegoDeMemorama": 84,
+    "alumno-juego-de-lingo": 2
   },
   "models": {
     "Profesor": {
@@ -1606,6 +1607,9 @@
       "81": "{\"alumnoId\":140,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":81}",
       "82": "{\"alumnoId\":141,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":82}",
       "83": "{\"alumnoId\":142,\"juegoDeMemoramaId\":11,\"puntuacion\":0,\"tiempo\":\"00:00\",\"id\":83}"
+    },
+    "alumno-juego-de-lingo": {
+      "1": "{\"Contestado\":false,\"puntuacion\":0,\"alumnoId\":1,\"juegoDeLingoId\":1,\"id\":1}"
     }
   }
 }

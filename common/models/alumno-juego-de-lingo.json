@@ -1,6 +1,6 @@
 {
-  "name": "AlumnoJuegoDeLingo",
-  "plural": "alumnosJuegoDeLingo",
+  "name": "alumno-juego-de-lingo",
+  "plural": "AlumnosJuegoDeLingo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
