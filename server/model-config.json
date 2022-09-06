@@ -459,7 +459,7 @@
     "dataSource": "baseDatos",
     "public": true
   },
-  "alumno-juego-de-lingo": {
+  "AlumnoJuegoDeLingo": {
     "dataSource": "baseDatos",
     "public": true
   },

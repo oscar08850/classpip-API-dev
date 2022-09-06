@@ -1,5 +1,5 @@
 {
-  "name": "alumno-juego-de-lingo",
+  "name": "AlumnoJuegoDeLingo",
   "plural": "AlumnosJuegoDeLingo",
   "base": "PersistedModel",
   "idInjection": true,
