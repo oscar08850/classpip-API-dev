@@ -115,7 +115,7 @@
     },
     "juegosDeLingo": {
       "type": "hasMany",
-      "model": "JuegoDeLingo",
+      "model": "juegoDeLingo",
       "foreignKey": "grupoId"
     },
     "juegosDeEvaluacion": {
