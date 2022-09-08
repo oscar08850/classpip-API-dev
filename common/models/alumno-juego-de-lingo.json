@@ -18,15 +18,18 @@
   },
   "validations": [],
   "relations": {
-    "alumno": {
-      "type": "belongsTo",
-      "model": "Alumno",
-      "foreignKey": "alumnoId"
-    },
+
+
+
     "juegoDeLingo": { 
       "type": "belongsTo", 
       "model": "juegoDeLingo", 
       "foreignKey": "juegoDeLingoId"
+    },
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId"
     }
   },
   "acls": [],

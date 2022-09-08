@@ -168,7 +168,7 @@
     },
     "juegoDeLingo": {
       "type": "hasMany",
-      "model": "JuegoDeLingo",
+      "model": "juegoDeLingo",
       "foreignKey": "alumnoId",
       "through": "AlumnoJuegoDeLingo"
     },

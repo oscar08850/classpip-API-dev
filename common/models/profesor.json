@@ -138,7 +138,7 @@
     },
     "lingo": {
       "type": "hasMany",
-      "model": "Lingo",
+      "model": "lingo",
       "foreignKey": "profesorId"
     },
     "juegosDeEncuestaRapida": {
