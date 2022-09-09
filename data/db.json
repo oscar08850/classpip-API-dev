@@ -75,7 +75,7 @@
     "AlumnoJuegoDeControlDeTrabajoEnEquipo": 137,
     "EquipoJuegoDeCuestionario": 31,
     "RespuestaEquipoJuegoDeCuestionario": 53,
-    "Evento": 769,
+    "Evento": 770,
     "RecursosCuento": 5,
     "JuegoDeCuento": 9,
     "RecursoJuegoDeCuento": 9,
@@ -94,7 +94,7 @@
     "Carta": 257,
     "JuegoDeMemorama": 15,
     "AlumnoJuegoDeMemorama": 108,
-    "AlumnoJuegoDeLingo": 60
+    "AlumnoJuegoDeLingo": 68
   },
   "models": {
     "Profesor": {
@@ -1408,7 +1408,8 @@
       "765": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-08T15:40:02.205Z\",\"ProfesorID\":14,\"JuegoID\":1,\"NombreJuego\":\"LogitechLingo\",\"TipoJuego\":\"Juego De Lingo\",\"id\":765}",
       "766": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-08T15:41:45.335Z\",\"ProfesorID\":14,\"JuegoID\":2,\"NombreJuego\":\"logi\",\"TipoJuego\":\"Juego De Lingo\",\"id\":766}",
       "767": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-08T15:43:31.699Z\",\"ProfesorID\":14,\"JuegoID\":3,\"NombreJuego\":\"NombredelJuego\",\"TipoJuego\":\"Juego De Lingo\",\"id\":767}",
-      "768": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-08T16:14:24.928Z\",\"ProfesorID\":14,\"JuegoID\":4,\"NombreJuego\":\"pruebaling\",\"TipoJuego\":\"Juego De Lingo\",\"id\":768}"
+      "768": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-08T16:14:24.928Z\",\"ProfesorID\":14,\"JuegoID\":4,\"NombreJuego\":\"pruebaling\",\"TipoJuego\":\"Juego De Lingo\",\"id\":768}",
+      "769": "{\"TipoEvento\":1,\"FechayHora\":\"2022-09-09T15:51:49.244Z\",\"ProfesorID\":14,\"JuegoID\":1,\"NombreJuego\":\"LingoCreado\",\"TipoJuego\":\"Juego De Lingo\",\"id\":769}"
     },
     "RecursosCuento": {
       "3": "{\"nombre\":\"Caso2\",\"carpeta\":\"Recursos-Caso2\",\"imagenes\":[{\"url\":\"c_1.png\",\"nombre\":\"c_1.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"g30203.png\",\"nombre\":\"g30203.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"c_2.png\",\"nombre\":\"c_2.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_6.png\",\"nombre\":\"c_6.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_7.png\",\"nombre\":\"c_7.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"c_9.png\",\"nombre\":\"c_9.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Caso1_camping.png\",\"nombre\":\"Caso1_camping.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_castillo.png\",\"nombre\":\"Caso1_castillo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_ciudad.png\",\"nombre\":\"Caso1_ciudad.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_desierto.png\",\"nombre\":\"Caso1_desierto.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"Caso1_marte.png\",\"nombre\":\"Caso1_marte.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"g29934.png\",\"nombre\":\"g29934.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30002.png\",\"nombre\":\"g30002.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30063.png\",\"nombre\":\"g30063.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"g30269.png\",\"nombre\":\"g30269.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":14,\"id\":3}",
@@ -1714,7 +1715,15 @@
       "56": "{\"Contestado\":false,\"alumnoId\":4,\"juegoDeLingoId\":138,\"id\":56}",
       "57": "{\"Contestado\":false,\"alumnoId\":4,\"juegoDeLingoId\":140,\"id\":57}",
       "58": "{\"Contestado\":false,\"alumnoId\":4,\"juegoDeLingoId\":141,\"id\":58}",
-      "59": "{\"Contestado\":false,\"alumnoId\":4,\"juegoDeLingoId\":142,\"id\":59}"
+      "59": "{\"Contestado\":false,\"alumnoId\":4,\"juegoDeLingoId\":142,\"id\":59}",
+      "60": "{\"Contestado\":false,\"alumnoId\":136,\"juegoDeLingoId\":1,\"id\":60}",
+      "61": "{\"Contestado\":false,\"alumnoId\":135,\"juegoDeLingoId\":1,\"id\":61}",
+      "62": "{\"Contestado\":false,\"alumnoId\":137,\"juegoDeLingoId\":1,\"id\":62}",
+      "63": "{\"Contestado\":false,\"alumnoId\":139,\"juegoDeLingoId\":1,\"id\":63}",
+      "64": "{\"Contestado\":false,\"alumnoId\":138,\"juegoDeLingoId\":1,\"id\":64}",
+      "65": "{\"Contestado\":false,\"alumnoId\":141,\"juegoDeLingoId\":1,\"id\":65}",
+      "66": "{\"Contestado\":false,\"alumnoId\":140,\"juegoDeLingoId\":1,\"id\":66}",
+      "67": "{\"Contestado\":false,\"alumnoId\":142,\"juegoDeLingoId\":1,\"id\":67}"
     }
   }
 }
